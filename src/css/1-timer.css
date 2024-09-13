@@ -10,7 +10,7 @@ input {
 }
 
 textarea {
-    width: 360px;
+    width: 56px;
     height: 80px;
     font-size: 25px;
     border-radius: 4px;
@@ -71,4 +71,47 @@ button:hover {
 
 .label {
     font-size: 30px;
+}
+
+/* iziToast customization */
+.iziToast-close {
+    background-color: transparent !important;
+    background-image: url('../img/bi_x-lg.svg');
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin: 18px;
+    color: transparent;
+    /* Скрывает текстовое содержание кнопки */
+}
+
+/* Flatpickr input styling */
+#datetime-picker {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Start button styling */
+#startButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#startButton:hover:not(:disabled) {
+    background-color: #45a049;
 }
