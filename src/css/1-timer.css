@@ -85,6 +85,7 @@ button:hover {
 }
 
 /* Flatpickr input styling */
+
 #datetime-picker {
     padding: 10px;
     font-size: 1rem;
@@ -94,6 +95,7 @@ button:hover {
 }
 
 /* Start button styling */
+
 #startButton {
     background-color: #4CAF50;
     color: white;
@@ -111,5 +113,5 @@ button:hover {
 }
 
 #startButton:hover:not(:disabled) {
-    background-color: #45a049;
+    background-color: #4824b1;
 }
