@@ -1,15 +1,17 @@
-import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css';
+import flatpickr from "flatpickr";
+import "flatpickr/dist/flatpickr.min.css";
+
+
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
 let chosenDate, difference, intervalId;
 
-const picker = document.querySelector('#datatime-piker');
+const picker = document.querySelector('#datetime-picker');
 const startButton = document.querySelector('[data-start]');
 const daysElement = document.querySelector('[data-days]');
 const hoursElement = document.querySelector('[data-hours]');
-const minutesElement = document.querySelector('[data-manites]');
+const minutesElement = document.querySelector('[data-minutes]');
 const secondsElement = document.querySelector('[data-seconds]');
 
 startButton.disabled = true;
@@ -77,3 +79,4 @@ function showError(message) {
     close: true,
   });
 }
+

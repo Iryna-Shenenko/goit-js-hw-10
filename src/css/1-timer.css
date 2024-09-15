@@ -73,21 +73,19 @@ button:hover {
     font-size: 30px;
 }
 
-/* iziToast customization */
 .iziToast-close {
-    background-color: transparent !important;
+    background-color: transparent;
     background-image: url('../img/bi_x-lg.svg');
     background-size: contain;
     width: 16px;
     height: 16px;
     margin: 18px;
     color: transparent;
-    /* Скрывает текстовое содержание кнопки */
+
 }
 
 /* Flatpickr input styling */
 #datetime-picker {
-    width: 100%;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
